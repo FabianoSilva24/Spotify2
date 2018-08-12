@@ -1,0 +1,126 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+body{
+    background: url(https://www.scdn.co/i/home/hero-burst.svg) no-repeat;
+    background-position: top -410px center;
+    background-color: #ff6963;
+    background-size: 110%;
+}
+
+nav{
+    height: 70px;
+    z-index: 1;
+    width: 100%;
+    background-color: rgba(0,0,0,.6);
+    position: fixed;
+}
+
+nav ul{
+    display: flex;
+    font-size: 15px;
+    justify-content: flex-end;
+    position: relative;
+    margin-bottom: 400px;
+    bottom: 45px;
+}
+
+nav ul li{
+    padding-right: 15px;
+    margin-right: 20px;
+    list-style-type: none;
+    margin-top: 0%;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-family: sans-serif;
+}
+
+.logo{
+    width: 130px;
+    z-index: 1;
+    margin-top: 13px;
+    margin-bottom: 13px;
+    margin-left: 100px;
+}
+
+
+h2{
+    text-align: center;
+    font-size: 80px;
+    font-weight:bold;
+    padding-top: 200px;
+    font-family: sans-serif;
+    color: white;
+
+}
+
+h3{
+    text-align: center;
+    font-size: 18px;
+    font-weight:bold;
+    padding-top: 20px;
+    font-family: sans-serif;
+    color: white;
+
+}
+
+button{
+    background-color: #1db954;
+    border: none;
+    border-radius: 50px;
+    text-align: center;
+    margin-left: 525px;
+    padding: 20px;
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+section button a{
+    color: white;
+    text-decoration: none;
+}
+
+footer{
+    background-color: black;
+    margin-top: 300px;
+    padding: 50px;
+}
+
+.logo2{
+    width: 130px;
+    margin-left: 100px;
+}
+
+footer ul{
+    display: flex;
+    font-size: 15px;
+    justify-content: flex-end;
+    position: relative;
+    margin-top: 10px;
+}
+
+footer ul li{
+    justify-content: end; 
+    margin-left: 80px;
+    list-style-type: none;
+    background-color: gray;
+    padding: 10px;
+    border-radius: 100%;
+}
+
+#twitter{
+    width: 50px;
+}
+
+#facebook{
+    width: 50px;
+}
+
+#instagram{
+    width: 50px;
+}
